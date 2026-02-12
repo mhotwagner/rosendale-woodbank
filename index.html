@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosendale Woodbank</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪵</text></svg>">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #faf7f2;
+      color: #3b3330;
+    }
+
+    /* Hero */
+    .hero {
+      background-color: #2d4a3e;
+      padding: 64px 24px;
+      text-align: center;
+    }
+
+    .hero-emoji {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .hero-title {
+      font-size: 42px;
+      font-weight: 700;
+      color: #f5f1eb;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-divider {
+      width: 48px;
+      height: 2px;
+      background-color: rgba(245, 241, 235, 0.3);
+      margin: 20px auto;
+      border-radius: 1px;
+    }
+
+    .hero-subtitle {
+      font-size: 20px;
+      color: #f5f1eb;
+      opacity: 0.9;
+      font-style: italic;
+    }
+
+    /* Content */
+    .content {
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px 32px 48px;
+    }
+
+    /* Sections */
+    .section {
+      margin-top: 40px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2d4a3e;
+      margin-bottom: 16px;
+    }
+
+    /* Body text */
+    .body {
+      font-size: 17px;
+      line-height: 28px;
+      color: #3b3330;
+    }
+
+    .body + .body {
+      margin-top: 16px;
+    }
+
+    /* Need cards */
+    .need-card {
+      display: flex;
+      flex-direction: row;
+      background-color: #f0ebe4;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 14px;
+      border: 1px solid #d6cfc4;
+    }
+
+    .need-icon {
+      font-size: 24px;
+      margin-right: 16px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .need-content {
+      flex: 1;
+    }
+
+    .need-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2d4a3e;
+      margin-bottom: 8px;
+    }
+
+    /* CTA */
+    .cta {
+      margin-top: 48px;
+      background-color: #2d4a3e;
+      border-radius: 12px;
+      padding: 32px;
+      text-align: center;
+    }
+
+    .cta-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #f5f1eb;
+      margin-bottom: 16px;
+    }
+
+    .cta-body {
+      font-size: 17px;
+      line-height: 28px;
+      color: #f5f1eb;
+      opacity: 0.92;
+    }
+
+    .cta-contact {
+      display: inline-block;
+      margin-top: 24px;
+      background-color: rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 12px 24px;
+    }
+
+    .cta-contact a {
+      font-size: 18px;
+      font-weight: 600;
+      color: #f5f1eb;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #d6cfc4;
+    }
+
+    .footer p {
+      font-size: 14px;
+      line-height: 22px;
+      color: #8a8078;
+      font-style: italic;
+      text-align: center;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero-title {
+        font-size: 32px;
+      }
+      .hero-subtitle {
+        font-size: 17px;
+      }
+      .content {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-emoji">🪵</div>
+    <h1 class="hero-title">Rosendale Woodbank</h1>
+    <div class="hero-divider"></div>
+    <p class="hero-subtitle">Free firewood for neighbors in need</p>
+  </div>
+
+  <div class="content">
+
+    <div class="section">
+      <h2 class="section-title">The Problem</h2>
+      <p class="body">
+        A lot of households in our area heat with wood — and a full winter's supply of
+        seasoned hardwood costs <strong>$1,000 to $1,600</strong> at current prices. For
+        families already stretched thin by groceries, medical expenses, and today's
+        generally high cost of living, that's an impossible number. New York's HEA
+        heating assistance covers a portion, but not enough for a full season.
+        Every winter, people in our community go cold.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">The Idea</h2>
+      <p class="body">
+        A woodbank works like a food pantry, but for firewood. Volunteers collect,
+        split, season, and distribute free cordwood to households that can't afford to
+        heat their homes. There are over 200 woodbanks operating across the country,
+        many of them small, volunteer-run operations serving a handful of families in
+        their own towns. We'd like to start one here.
+      </p>
+      <p class="body">
+        The concept is straightforward: source wood that would otherwise go to waste —
+        storm damage, tree service removals, hazard trees, land clearing — and turn it
+        into split, seasoned firewood for people who need it.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">What We Have So Far</h2>
+      <p class="body">
+        We have a chainsaw, a hydraulic splitter, a truck to haul with, and a small
+        group of people willing to put in the work. Federal grant funding exists
+        specifically for woodbank startups through the USDA Forest Service's Firewood
+        Bank Assistance Program, and several national organizations offer mentorship and
+        resources to new programs.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">What We Need</h2>
+
+      <div class="need-card">
+        <div class="need-icon">📍</div>
+        <div class="need-content">
+          <div class="need-title">A Processing Site</div>
+          <p class="body">
+            This is our biggest need. We're looking for a flat, truck-accessible area —
+            ideally in or near Rosendale — where we can store logs, run a splitter on
+            processing days, and stack split wood to dry. A corner of a farm, a municipal
+            yard, church property, or an unused commercial lot would all work. It doesn't
+            need to be fancy. It needs to be accessible and available.
+          </p>
+        </div>
+      </div>
+
+      <div class="need-card">
+        <div class="need-icon">🤝</div>
+        <div class="need-content">
+          <div class="need-title">Volunteers</div>
+          <p class="body">
+            Processing firewood is physical work and it goes a lot faster with a crew.
+            We'd hold regular processing days — likely weekend mornings — where people can
+            show up, split and stack wood, and go home knowing they helped a neighbor stay
+            warm. No experience necessary. All safety equipment and training provided.
+          </p>
+        </div>
+      </div>
+
+      <div class="need-card">
+        <div class="need-icon">🌳</div>
+        <div class="need-content">
+          <div class="need-title">Wood</div>
+          <p class="body">
+            If you're a property owner with downed or hazard trees you need removed, or a
+            tree service looking for a place to drop logs, we'd love to hear from you.
+            Hardwood only — oak, maple, ash, hickory, cherry, beech, birch, and locust are
+            all excellent.
+          </p>
+        </div>
+      </div>
+
+      <div class="need-card">
+        <div class="need-icon">💬</div>
+        <div class="need-content">
+          <div class="need-title">Community Input</div>
+          <p class="body">
+            We want to build this the right way. If you heat with wood and have struggled
+            with costs, if you know someone who has, or if you have thoughts on how a
+            program like this should work in Rosendale, we want to hear from you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">How It Would (Wood) Work</h2>
+      <p class="body">
+        Wood is collected from local sources — tree services, storm cleanup, private
+        landowners, and potentially state and county operations — and brought to the
+        processing site. Volunteers buck logs to stove length and split them, then stack
+        the wood to season over spring and summer. By fall, the firewood is dry and
+        ready to distribute.
+      </p>
+      <p class="body">
+        Distribution would begin in October and run through March, prioritizing elderly
+        residents, people with disabilities, families with young children, and anyone in
+        an emergency heating situation. Recipients can pick up wood at the site or, for
+        those without transportation, we'd deliver.
+      </p>
+      <p class="body">
+        Eligibility would be based on need — we're not interested in creating
+        bureaucratic hurdles. <em>If you're struggling to heat your home, that's enough.</em>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Who Benefits</h2>
+      <p class="body">
+        Beyond the families who receive firewood, a woodbank creates value across the
+        community. Tree services get a free, local dump site for logs they'd otherwise
+        pay to dispose of. The town gets a productive use for storm debris. Volunteers
+        get a tangible way to help their neighbors. And all of us benefit from knowing
+        that nobody in our community is going without heat.
+      </p>
+    </div>
+
+    <div class="cta">
+      <h2 class="cta-title">Get Involved</h2>
+      <p class="cta-body">
+        We're in the early stages and looking for all kinds of support — a place to
+        work, people to work with, wood to work on, and ideas to work from. If any part
+        of this interests you, please reach out.
+      </p>
+      <div class="cta-contact">
+        <a href="mailto:rosendale.woodbank@gmail.com">rosendale.woodbank@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Woodbanks are community-driven, volunteer-powered programs. This initiative is
+        not affiliated with any commercial firewood operation. All firewood distributed
+        through the program would be free of charge to eligible households.
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
