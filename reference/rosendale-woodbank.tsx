@@ -54,7 +54,7 @@ export default function RosendaleWoodbank() {
             <Text style={styles.body}>
               A lot of households in our area heat with wood — and a full winter's supply of
               seasoned hardwood costs{' '}
-              <Text style={styles.bold}>$1,000 to $1,600</Text> at current prices. For
+              <Text style={styles.bold}>$1,000 to $2,000</Text> at current prices. For
               families already stretched thin by groceries, medical expenses, and today's
               generally high cost of living, that's an impossible number. New York's HEA
               heating assistance covers a portion, but not enough for a full season.
